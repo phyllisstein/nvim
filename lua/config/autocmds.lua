@@ -1,0 +1,14 @@
+-- vim.api.nvim_create_autocmd('User', {
+--     pattern = 'TSUpdate',
+--     callback = function()
+--         require('nvim-treesitter.parsers').zimbu = {
+--             install_info = {
+--                 url = 'https://github.com/gram-data/tree-sitter-cypher',
+--                 revision = "HEAD", -- commit hash for revision to check out; HEAD if missing
+--                 -- optional entries:
+--                 generate = true,  -- only needed if repo does not contain pre-generated `src/parser.c`
+--                 generate_from_json = false, -- only needed if repo does not contain `src/grammar.json` either
+--             },
+--         }
+--     end
+-- })
