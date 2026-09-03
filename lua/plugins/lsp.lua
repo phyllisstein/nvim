@@ -14,7 +14,7 @@ return {
     "mason-org/mason-lspconfig.nvim",
     dependencies = { "mason-org/mason.nvim" },
     opts = {
-      ensure_installed = { "rust_analyzer", "ts_ls", "pylsp", "eslint", "cypher_ls", "stylelint_lsp" },
+      -- ensure_installed = { "rust_analyzer", "ts_ls", "pylsp", "eslint", "cypher_ls", "stylelint_lsp" },
       -- `automatic_installation` was REMOVED in mason-lspconfig v2 and is
       -- silently ignored. `automatic_enable` is the real kill-switch, and it
       -- DEFAULTS TO TRUE -- i.e. without this line mason will auto-enable
